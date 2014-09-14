@@ -19,6 +19,8 @@ REM - ***********************************************************
 
 
 setlocal enableextensions
+%~d0
+cd %~p0
 pushd .
 REM - ***********************************************************
 REM - Clear out the recycle bin
@@ -106,4 +108,4 @@ REM - ***********************************************************
 REM - Clear out the IE cache and tmp folders for all users
 REM - ***********************************************************
 popd
-c:\scripts\icsweep /all
+icsweep /all
