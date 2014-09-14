@@ -5,6 +5,7 @@ REM -
 REM - This script will download and execute the latest version
 REM - of cleartmp from github
 REM - ***********************************************************
+
 setlocal enableextensions
 %~d0
 cd %~p0
